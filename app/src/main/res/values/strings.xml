@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Nimbl3_VuLong</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Messenger text-->
+    <string name="wifi_not_connect_messenger">You need a network connection to use this application. Please turn on mobile network or Wi-Fi in Settings.</string>
+    <string name="wifi_not_connect_title">Unable to connect</string>
+    <string name="there_are_some_problem_in_loading_data">There are some problem in loading data...</string>
+    <string name="loading">Loading</string>
+
+    <!--Button texts-->
+    <string name="setting_text">Settings</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="surveys">SURVEYS</string>
+    <string name="take_the_survey">        Take the survey     </string>
+
+    <!--Data addition-->
+    <string name="title_data">Name</string>
+    <string name="description">Description</string>
+    <string name="survey_string">Survey is about</string>
+    <string name="null_poiter_error_msg">onResponse: Null pointer</string>
+</resources>

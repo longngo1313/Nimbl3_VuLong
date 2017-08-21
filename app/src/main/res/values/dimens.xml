@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Main Screen value-->
+    <dimen name="menu_btn_mg_right">10dp</dimen>
+    <dimen name="title_size_detail_survey">30sp</dimen>
+    <dimen name="indicator_mg_right">20dp</dimen>
+    <dimen name="error_txt_size">20sp</dimen>
+    <dimen name="loading_txt_size">30sp</dimen>
+    <dimen name="question_title_mg_left">5dp</dimen>
+    <dimen name="text_question_txt_size">15sp</dimen>
+    <dimen name="short_text_question_size">10sp</dimen>
+
+    <!--Survey List screen value-->
+    <dimen name="survey_title_txt_size">30sp</dimen>
+    <dimen name="survey_desciption_size">20sp</dimen>
+    <dimen name="survey_desciption_mg_top">10dp</dimen>
+    <dimen name="take_survey_size">20sp</dimen>
+
+    <!--Button shape value-->
+    <dimen name="button_shape_stroke_width">1dp</dimen>
+    <dimen name="button_shape_corners_radius">90dp</dimen>
+    <dimen name="button_shape_padding_horizontal">20dp</dimen>
+    <dimen name="button_shape_padding_vertical">10dp</dimen>
+</resources>

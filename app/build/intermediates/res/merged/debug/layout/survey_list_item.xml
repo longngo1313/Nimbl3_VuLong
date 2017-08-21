@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_item_bg"
+        android:background="@color/colorPrimary"
+        android:scaleType="centerCrop"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="bottom|center_horizontal"
+            android:layout_weight="1"
+            android:text="@string/title_data"
+            android:textSize="@dimen/survey_title_txt_size"
+            android:id="@+id/survey_title"
+            android:textStyle="bold"
+            android:textColor="@color/white_text"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="top|center_horizontal"
+            android:layout_marginTop="@dimen/survey_desciption_mg_top"
+            android:layout_weight="1"
+            android:textSize="@dimen/survey_desciption_size"
+            android:text="@string/description"
+            android:textColor="@color/white_text"
+            android:id="@+id/survey_desciption"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/survey_button_bg"
+            android:textColor="@drawable/change_text_color_btn_edit_wiget"
+            android:textAllCaps="false"
+            android:textSize="@dimen/take_survey_size"
+            android:text="@string/take_the_survey"
+            android:id="@+id/take_survey"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_text"
+    android:orientation="vertical"
+    tools:context="test.simple.com.nimbl3_vulong.fragments.DetailSurveyFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/title_size_detail_survey"
+        android:gravity="center_horizontal"
+        android:text="@string/hello_blank_fragment"
+        android:id="@+id/survey_data"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_list_view"/>
+
+</LinearLayout>
