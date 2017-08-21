@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal" android:layout_width="match_parent"
-    android:layout_marginTop="15dp"
-    android:layout_marginBottom="15dp"
+    android:paddingBottom="@dimen/padding_question_item"
+    android:paddingTop="@dimen/padding_question_item"
     android:layout_height="wrap_content">
 
     <ImageView
@@ -23,7 +23,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/text_question_txt_size"
-            android:textColor="@color/white_text"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="@color/black_text"
             android:gravity="center_vertical"
             android:id="@+id/text_question"
             android:layout_weight="1"/>
@@ -32,8 +34,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/short_text_question"
-            android:textColor="@color/white_text"
+            android:textColor="@color/black_text"
             android:gravity="center_vertical"
+            android:maxLines="2"
+            android:ellipsize="end"
             android:textSize="@dimen/short_text_question_size"
             android:layout_weight="1"/>
 

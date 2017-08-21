@@ -2,14 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black_text"
+    android:background="#F0F0F0"
     android:orientation="vertical"
-    tools:context="test.simple.com.nimbl3_vulong.fragments.DetailSurveyFragment">
+    tools:context="test.simple.com.nimbl3.fragments.DetailSurveyFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/black_text"
         android:textSize="@dimen/title_size_detail_survey"
         android:gravity="center_horizontal"
         android:text="@string/hello_blank_fragment"
@@ -17,6 +17,10 @@
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
+        android:paddingStart="@dimen/padding_list_question"
+        android:paddingLeft="@dimen/padding_list_question"
+        android:paddingRight="@dimen/padding_list_question"
+        android:paddingEnd="@dimen/padding_list_question"
         android:layout_height="wrap_content"
         android:id="@+id/question_list_view"/>
 

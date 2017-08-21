@@ -1,4 +1,4 @@
-#Mon Aug 21 18:04:05 ICT 2017
-base.0=C\:\\Users\\Admin\\Downloads\\Nimbl3_Test-master\\Nimbl3_Test-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Mon Aug 21 23:51:34 ICT 2017
+base.0=C\:\\Users\\Admin\\Downloads\\Nimbl3_VuLong-master\\Nimbl3_VuLong\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=C\:\\Users\\Admin\\Downloads\\Nimbl3_Test-master\\Nimbl3_Test-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=C\:\\Users\\Admin\\Downloads\\Nimbl3_VuLong-master\\Nimbl3_VuLong\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

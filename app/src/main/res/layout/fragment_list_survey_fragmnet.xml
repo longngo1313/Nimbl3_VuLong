@@ -2,10 +2,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="test.simple.com.nimbl3_vulong.fragments.ListSurveyFragment">
+    tools:context="test.simple.com.nimbl3.fragments.ListSurveyFragment">
 
 
-    <test.simple.com.nimbl3_vulong.customviews.VerticalViewPager
+    <test.simple.com.nimbl3.customviews.VerticalViewPager
         android:id="@+id/survey_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

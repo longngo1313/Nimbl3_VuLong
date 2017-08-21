@@ -22,4 +22,6 @@
     <dimen name="button_shape_corners_radius">90dp</dimen>
     <dimen name="button_shape_padding_horizontal">20dp</dimen>
     <dimen name="button_shape_padding_vertical">10dp</dimen>
+    <dimen name="padding_question_item">5dp</dimen>
+    <dimen name="padding_list_question">10dp</dimen>
 </resources>
